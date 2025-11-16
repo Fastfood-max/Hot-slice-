@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hot Slice - Pizza & Fast Food</title>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: #111;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background: #c62828;
+        padding: 25px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .container {
+        padding: 20px;
+    }
+    h2 {
+        border-bottom: 2px solid #c62828;
+        padding-bottom: 5px;
+    }
+    .item-box, .deal-box {
+        background: #222;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 1px solid #c62828;
+    }
+    .price {
+        color: #ff5252;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    footer {
+        background: #c62828;
+        text-align: center;
+        padding: 12px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 12px;
+        margin-top: 8px;
+        border-radius: 6px;
+        border: none;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+        background: #ff5252;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>Hot Slice Pizza & Fast Food</header>
+
+<div class="container">
+
+    <h2>🍕 Pizza Menu</h2>
+
+    <div class="item-box">
+        <h3>Fajita Pizza</h3>
+        <p>Small: <span class="price">Rs 300</span></p>
+        <p>Medium: <span class="price">Rs 550</span></p>
+        <p>Large: <span class="price">Rs 750</span></p>
+    </div>
+
+    <div class="item-box">
+        <h3>Bar BQ Pizza</h3>
+        <p>Small: <span class="price">Rs 300</span></p>
+        <p>Medium: <span class="price">Rs 550</span></p>
+        <p>Large: <span class="price">Rs 750</span></p>
+    </div>
+
+    <div class="item-box">
+        <h3>Tikka Pizza</h3>
+        <p>Small: <span class="price">Rs 300</span></p>
+        <p>Medium: <span class="price">Rs 550</span></p>
+        <p>Large: <span class="price">Rs 750</span></p>
+    </div>
+
+    <h2>🔥 Deals</h2>
+
+    <div class="deal-box">
+        <h3>Deal #1</h3>
+        <p>3 Small Pizza + 1 Litre Drink</p>
+        <p class="price">Rs 1050</p>
+    </div>
+
+    <div class="deal-box">
+        <h3>Deal #2</h3>
+        <p>2 Medium Pizza + 1 Litre Drink</p>
+        <p class="price">Rs 1250</p>
+    </div>
+
+    <div class="deal-box">
+        <h3>Deal #3</h3>
+        <p>2 Large Pizza + 1 Litre Drink</p>
+        <p class="price">Rs 1600</p>
+    </div>
+
+    <h2>🍔 Fast Food</h2>
+
+    <div class="item-box">
+        <p>Shawarma — <span class="price">Rs 180</span></p>
+        <p>Zinger Burger — <span class="price">Rs 280</span></p>
+        <p>12 pcs Wings — <span class="price">Rs 750</span></p>
+        <p>12 pcs Nuggets — <span class="price">Rs 550</span></p>
+    </div>
+
+    <h2>🛵 Delivery</h2>
+    <div class="item-box">
+        <p>Delivery Charges: <span class="price">Rs 50</span></p>
+    </div>
+
+    <h2>📍 Location</h2>
+    <div class="item-box">
+        Water Supply Road, Near Purana Naz Cinema, Sargodha
+    </div>
+
+    <h2>📞 Contact</h2>
+    <div class="item-box">
+        Phone: <b>0332-8343473</b>
+    </div>
+
+    <h2>🧾 Order Form</h2>
+    <form action="mailto:mmawais680@gmail.com" method="POST" enctype="text/plain">
+        <label>نام:</label>
+        <input type="text" name="name" required>
+
+        <label>آرڈر کی تفصیل:</label>
+        <textarea name="order" rows="5" required></textarea>
+
+        <label>موبائل نمبر:</label>
+        <input type="text" name="phone" required>
+
+        <button type="submit">آرڈر بھیجیں</button>
+    </form>
+
+</div>
+
+<footer>
+    © 2025 Hot Slice – Sargodha  
+</footer>
+
+</body>
+</html>
